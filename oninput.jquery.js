@@ -1,6 +1,6 @@
 (function($) {
 
-    // detect i9, because jQuery.browser is deprecated
+    // detecting  i9, because jQuery.browser is deprecated
     var isIE9 = false,
         isIE = false;
     /*@cc_on
@@ -10,7 +10,7 @@
         @end
     @*/
 
-    // Check event supporting in element
+    //Checking event's support in element
     var isSupportedEvent = function (eventName, nodeName) {
         var el = document.createElement(nodeName);
         eventName = 'on' + eventName;
